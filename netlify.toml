@@ -4,4 +4,4 @@
 	command = 'hugo --gc'
 
 [context.production]
-  command = 'hugo --gc --minify'
+  #command = 'hugo --gc --minify'
