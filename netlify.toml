@@ -1,0 +1,7 @@
+[build]
+	base = 'site/'
+	publish = 'site/public/'
+	command = 'hugo --gc'
+
+[context.production]
+  command = 'hugo --gc --minify'

@@ -1,0 +1,18 @@
+baseURL = ''
+defaulContentLanguage = 'en'
+title = 'Hugo Page Template'
+
+uglyURLs = true
+
+[params]
+	production = false
+
+[languages]
+	[languages.en]
+		languageName = 'English'
+		contentDir = 'content/en/'
+		weight = 1
+	[language.de]
+		languageName = 'Deutsch'
+		contentDir = 'content/de/'
+		weight = 2

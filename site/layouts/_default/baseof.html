@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ .Params.lang }}">
+	<head>
+  {{ partial "html-head" . }}
+	{{ partial "stylesheets" . }}
+	{{ block "page-stylesheets" . }}{{ end }}
+	</head>
+	<body>
+    {{ partial "header" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer" . }}
+    {{ partial "scripts" . }}
+		{{ block "page-scripts" . }}{{ end }}
+	</body>
+</html>

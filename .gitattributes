@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+/site/archetypes/* text eol=lf
+/site/content/* text eol=lf
+/site/data/* text eol=lf
