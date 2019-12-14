@@ -1,11 +1,11 @@
 +++
-type = 'page'
-layout = 'text'
+layout = 'home'
 
 title = 'Zuhause'
-aliases = ['/de/index.html']
 language = 'de'
+url = '/de.html'
+aliases = ['/de/index.html']
 +++
 
 # Hallo
-[da lang]({{< ref "de/example.md" >}})
+[da lang](/de/beispiel.html)

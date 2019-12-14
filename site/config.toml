@@ -1,8 +1,9 @@
 baseURL = ''
-defaulContentLanguage = 'en'
-title = 'Hugo Page Template'
-
 uglyURLs = true
+
+defaultContentLanguage = 'en' # Placeholder to allow language files
+defaultContentLanguageInSubdir = true
+title = 'Hugo Page Template'
 
 [params]
 	production = false
@@ -11,10 +12,9 @@ uglyURLs = true
 	[languages.en]
 		languageName = 'English'
 		languageCode = 'en'
-		contentDir = 'content/en'
 		weight = 1
 	[languages.de]
+		title = 'Hugo Seitenvorlage'
 		languageName = 'Deutsch'
 		languageCode = 'de'
-		contentDir = 'content/de'
 		weight = 2

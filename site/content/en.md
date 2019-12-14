@@ -1,10 +1,10 @@
 +++
-type = 'page'
-layout = 'text'
+layout = 'home'
 
 title = 'Home'
-aliases = ['/index.html', '/en/index.html']
-languageCode = 'en'
+language = 'en'
+url = '/en.html'
+aliases = ['/en/index.html']
 +++
 
 # Hello
