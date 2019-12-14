@@ -1,7 +1,7 @@
 baseURL = ''
 uglyURLs = true
 
-defaultContentLanguage = 'en' # Placeholder to allow language files
+defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 title = 'Hugo Page Template'
 

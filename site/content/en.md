@@ -1,5 +1,4 @@
 +++
-type = 'page'
 layout = 'home'
 
 title = 'Home'
