@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Params.lang }}">
+<html lang="{{ cond (isset .Page.Params "language") .Page.Params.Language .Site.LanguageCode }}">
 	<head>
   {{ partial "html-head" . }}
 	{{ partial "stylesheets" . }}

@@ -4,7 +4,8 @@ layout = 'text'
 
 title = 'Zuhause'
 aliases = ['/de/index.html']
+language = 'de'
 +++
 
 # Hallo
-[da lang](/de/example.html)
+[da lang]({{< ref "de/example.md" >}})

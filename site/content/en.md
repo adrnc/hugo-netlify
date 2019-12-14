@@ -4,6 +4,7 @@ layout = 'text'
 
 title = 'Home'
 aliases = ['/index.html', '/en/index.html']
+languageCode = 'en'
 +++
 
 # Hello

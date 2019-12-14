@@ -10,9 +10,11 @@ uglyURLs = true
 [languages]
 	[languages.en]
 		languageName = 'English'
-		contentDir = 'content/en/'
+		languageCode = 'en'
+		#contentDir = 'content/en'
 		weight = 1
-	[language.de]
+	[languages.de]
 		languageName = 'Deutsch'
-		contentDir = 'content/de/'
+		languageCode = 'de'
+		contentDir = 'content/de'
 		weight = 2
