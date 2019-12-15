@@ -1,10 +1,10 @@
 +++
-#layout = 'home'
+layout = 'home'
 
 title = 'Zuhause'
 language = 'de'
 url = '/de.html'
-aliases = ['/de/index.html']
+#aliases = ['/de/index.html']
 +++
 
 # Hallo

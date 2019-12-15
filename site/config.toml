@@ -5,6 +5,8 @@ defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 title = 'Hugo Page Template'
 
+disableKinds = ['home', 'taxonomy', 'taxonomyTerm', 'RSS']
+
 [params]
 	production = false
 

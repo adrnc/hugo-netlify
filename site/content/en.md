@@ -1,5 +1,5 @@
 +++
-#layout = 'home'
+layout = 'root'
 
 title = 'Home'
 language = 'en'
