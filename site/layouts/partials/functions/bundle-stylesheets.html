@@ -1,0 +1,17 @@
+{{ if site.IsServer }}
+	{{ range . }}
+		{{ $style := resources.Get . | toCSS | fingerprint "md5" }}
+		<link href="{{ $style.Permalink }}">
+	{{ end }}
+{{ else }}
+	{{ $style := false }}
+	{{ range . }}
+		{{ if $style }}
+			{{ $style = slice $style (resources.Get .) | resources.Concat "css/bundle.css" }}
+		{{ else }}
+			{{ $style = resources.Get . }}
+		{{ end }}
+	{{ end }}
+	{{ $style = $style | toCSS (dict "outputStyle" "compressed") | minify | fingerprint "sha512" }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+{{ end }}

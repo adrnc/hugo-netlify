@@ -1,14 +1,11 @@
 baseURL = ''
-uglyURLs = true
+uglyURLs = false
 
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 title = 'Hugo Page Template'
 
-disableKinds = ['home', 'taxonomy', 'taxonomyTerm', 'RSS']
-
-[params]
-	production = false
+disableKinds = ['taxonomy', 'taxonomyTerm', 'RSS']
 
 [languages]
 	[languages.en]

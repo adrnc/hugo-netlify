@@ -2,4 +2,4 @@
 title = 'Example'
 +++
 
-hi
+This is an example in English.

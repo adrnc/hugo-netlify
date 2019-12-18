@@ -3,4 +3,4 @@ title = 'Beispiel'
 slug = 'beispiel'
 +++
 
-hi
+Dies ist ein Beispiel auf deutsch.

@@ -1,0 +1,17 @@
+{{ if site.IsServer }}
+	{{ range . }}
+		{{ $script := resources.Get . | fingerprint "md5" }}
+		<script src="{{ $script.Permalink }}"></script>
+	{{ end }}
+{{ else }}
+	{{ $script := false }}
+	{{ range . }}
+		{{ if $script }}
+			{{ $script = slice $script (resources.Get .) | resources.Concat "js/bundle.js" }}
+		{{ else }}
+			{{ $script = resources.Get . }}
+		{{ end }}
+	{{ end }}
+	{{ $script = $script | minify | fingerprint "sha512" }}
+	<script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+{{ end }}
