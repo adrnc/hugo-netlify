@@ -1,2 +1,2 @@
 # netlify-hugo
- Hugo / Netlify template page
+Hugo / Netlify template page

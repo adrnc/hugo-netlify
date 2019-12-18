@@ -9,11 +9,13 @@ disableKinds = ['taxonomy', 'taxonomyTerm', 'RSS']
 
 [languages]
 	[languages.en]
+		weight = 1
 		languageName = 'English'
 		languageCode = 'en'
-		weight = 1
+		#contentDir = 'content/en'
 	[languages.de]
+		weight = 2
 		title = 'Hugo Seitenvorlage'
 		languageName = 'Deutsch'
 		languageCode = 'de'
-		weight = 2
+		#contentDir = 'content/de'
