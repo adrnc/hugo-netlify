@@ -1,5 +1,5 @@
 {{ define "main" }}
-	{{ i18n "homepage-title" }}
+	<h1>{{ i18n "homepage-title" }}</h1>
 	{{ .Content }}
 {{ end }}
 {{ define "page-scripts" }}{{ partial "functions/bundle-scripts" (slice "js/global.js" "js/fragment.js") }}{{ end }}
