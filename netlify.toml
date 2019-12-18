@@ -18,9 +18,3 @@
 	pretty_urls = true
 [build.processing.images]
   compress = true
-
-[[redirects]]
-	from = '/'
-	to = '/en'
-	status = 301
-	force = true
