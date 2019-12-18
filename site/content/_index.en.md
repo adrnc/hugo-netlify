@@ -1,6 +1,5 @@
 +++
 title = 'Home'
-alias = ['/en/index.html']
 +++
 
 # Hello
